@@ -22,4 +22,9 @@ public class EdadTest {
     }
     
     // TODO: Agrega tus otros casos de prueba aquí
+    public void test1945Julio15() {
+        String valorEsperado = "Usted tiene  78 años";
+        String valorActual = Edad.evaluar(15, 11, 1945);
+        assertEquals(valorEsperado, valorActual);
+    }
 }
